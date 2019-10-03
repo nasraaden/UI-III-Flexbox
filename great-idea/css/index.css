@@ -59,12 +59,13 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+/* Good Idea page */
 body {
 	width: 900px;
 	margin: 0 auto;
@@ -75,6 +76,7 @@ nav{
 	margin: 40px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 
 .nav-tags{
@@ -176,5 +178,170 @@ footer{
 	padding: 30px;
 }
 
+/* Services page */
+
+.services-links{
+	display: flex;
+}
+
+/* Section 1 styling */
+.services-header-img{
+	margin-top: -20px;
+}
+
+.section-one{
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	justify-content: center;
+}
+
+.section-one h1{
+	font-size: 25px;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.section-one hr{
+	margin: 40px 0px 40px;
+	
+}
+
+.section-one p{
+	line-height: 1.5;
+}
+
+/* End of section 1 styling */
+
+/* Section 2 styling */
+
+.link{
+	text-decoration: none;
+	color: black;
+	padding: 8px 20px 8px;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	text-align: center;
+	width: 30%;
+}
+
+
+.section-two {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.first-div{
+	display: flex;
+	justify-content: space-evenly; 
+	line-height: 1.5;
+}
+
+
+.second-div{
+	display: flex;
+	justify-content: space-evenly; 
+	line-height: 1.5;
+}
+
+.third-div{
+	display: flex;
+	justify-content: space-evenly; 
+	line-height: 1.5;
+}
+
+.one {
+	background-color: whitesmoke;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 0px 20px 20px 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+.two {
+	background-color: whitesmoke;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 0px 0px 20px 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.three {
+	background-color: whitesmoke;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px 20px 20px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.four {
+	background-color: whitesmoke;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px 0px 20px 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.five {
+	background-color: whitesmoke;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px 20px 20px 0;
+	display: flex;
+	flex-direction: column;
+}
+.six {
+	background-color: whitesmoke;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px 0px 20px 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+/* End of section 2 styling */
+
+/* Section 3 styling */
+.section-three{
+	display: flex;
+}
+
+.section-three div{
+	display: flex;
+	flex-direction: column;
+}
+
+.section-three p{
+	line-height: 1.5;
+	padding-right: 20px;
+	/* justify-content: space-between; */
+}
+
+ul{
+	list-style: square;
+	padding-top: 30px;
+	padding-left: 15px;
+}
+
+li{
+	padding-bottom: 15px;
+}
+
+/* End of section 3 styling */
+
+/* Footer styling */
+footer p {
+	margin-top: 40px;
+}
 
 
